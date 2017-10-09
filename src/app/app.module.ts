@@ -9,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-     BrowserModule.withServerTransition({appId: 'ang4-seo-skeleton'}),
+    // BrowserModule,
+    BrowserModule.withServerTransition({appId: 'angular4-app-id'}), //provide the app id
     AppRoutingModule
   ],
   providers: [],
