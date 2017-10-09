@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+     BrowserModule.withServerTransition({appId: 'ang4-seo-skeleton'}),
     AppRoutingModule
   ],
   providers: [],
